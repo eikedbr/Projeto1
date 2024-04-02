@@ -23,6 +23,13 @@
     transition: transform 0.3s ease;
 }
 
+.imagem {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
 .container figure::after {
     content: '';
     position: absolute;

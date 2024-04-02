@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+}
+
+footer {
+    text-align: right;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color:purple;
+}

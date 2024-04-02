@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+footer {
+    text-decoration-line: underline;
+    text-decoration-color: blueviolet;
+    width: 100%;
+    background-color: black;
+    position: 40px;
+    bottom: 0;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: move 35s linear infinite;
+}
+
+header {
+    background-color: transparent;
+    border-style: outset;
+    border-color: gray;
+}
+
+nav {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    word-spacing: 500px;
+}
+
+nav a {
+    background-color: transparent;
+    color: gray;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    background-color: transparent;
+    color: rgb(98, 0, 255);
+    text-decoration: underline;
+    cursor: -moz-grabbing;
+}
+
+section {
+    margin: 40px;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: move 35s linear infinite;
+}
+
+@keyframes move {
+    to {
+        background-position: 4500vh;
+    }
+
+}

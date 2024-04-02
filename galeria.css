@@ -1,9 +1,10 @@
-.container{
+.container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Reduzindo o tamanho mínimo para 150px */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    /* Reduzindo o tamanho mínimo para 150px */
     grid-gap: 10px;
     justify-items: center;
     margin-top: 20px;
@@ -12,12 +13,13 @@
 .container figure {
     position: relative;
     overflow: hidden;
-    border-radius: 5px; /* Adicionando borda arredondada */
+    border-radius: 5px;
+    /* Adicionando borda arredondada */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
 
-.container img{
+.container img {
     width: 100%;
     height: auto;
     transition: transform 0.3s ease;
@@ -42,15 +44,10 @@
     transition: opacity 0.3s ease;
 }
 
-.container figure:hover::after{
-
-   
-    /* Reduzindo a opacidade para 0.5*/
-}
 
 .container figcaption {
-      position: relative; 
-      bottom: auto; 
+    position: relative;
+    bottom: auto;
     left: 0;
     width: 100%;
     padding: 10px;
@@ -62,10 +59,13 @@
 
 .container figure:hover figcaption {
     bottom: 0px;
+
 }
 
 figcaption {
     color: white;
+    bottom: auto;
+
 }
 
 header {
@@ -79,4 +79,6 @@ body {
 }
 
 figure {
+ display: block;
+ 
 }

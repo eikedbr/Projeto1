@@ -22,26 +22,32 @@ footer {
 header {
     background-color: transparent;
     border-style: outset;
-    border-color: gray;
+    border-color: crimson;
+    border-radius: 20px;
+    width: auto;
+    margin: none;
+    padding: 10px;
 }
 
 nav {
     padding: 10px;
     display: flex;
     justify-content: center;
-    word-spacing: 500px;
+    word-spacing: 400px;
 }
 
 nav a {
     background-color: transparent;
-    color: gray;
+    color: crimson;
     text-decoration: none;
+    font-size: larger;
+    
 
 }
 
 nav a:hover {
     background-color: transparent;
-    color: rgb(98, 0, 255);
+    color: crimson;
     text-decoration: underline;
     cursor: -moz-grabbing;
 }

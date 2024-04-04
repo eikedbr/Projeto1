@@ -6,11 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
-   <link rel="stylesheet" href="style.css">
-   <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contato.css">
 </head>
 
 <body>
+    <header>
+        <h1>
+            Contato
+        </h1>
+    </header>
+
+    <nav>
+        <ul>
+            <a href="index.html">Início</a>
+            <a href="contato.html">Contato</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="galeria.html">Galeria</a>
+        </ul>
+    </nav>
+
     <form>
         <label for="name">Nome: </label>
         <input type="text" id="name" name="name" required>
@@ -20,6 +35,15 @@
 
         <label for="message">Mensagem: </label>
         <textarea name="message" id="message" rows="5"></textarea>
+
+        <label for="senha">Senha: </label>
+        <input type="password" name="senha" id="senha">
+
+        <label for="numero">Número: </label>
+        <input type="number" name="numero" id="numero" pattern="[0 9]*">
+
+        <label for="faixa_valor">Faixa de Valor </label>
+        <input type="range" name="faixa_valor" id="faixa_valor">
 
         <button type="submit">Enviar</button>
     </form>

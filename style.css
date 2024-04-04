@@ -22,7 +22,7 @@ footer {
 header {
     background-color: transparent;
     border-style: outset;
-    border-color: crimson;
+    border-color: blueviolet;
     border-radius: 20px;
     width: auto;
     margin: none;
@@ -38,7 +38,7 @@ nav {
 
 nav a {
     background-color: transparent;
-    color: crimson;
+    color: blueviolet;
     text-decoration: none;
     font-size: larger;
     
@@ -47,7 +47,7 @@ nav a {
 
 nav a:hover {
     background-color: transparent;
-    color: crimson;
+    color: blueviolet;
     text-decoration: underline;
     cursor: -moz-grabbing;
 }

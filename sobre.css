@@ -1,14 +1,34 @@
+header {
+    border-style: ridge;
+    border-color: crimson;
+    padding: 10px;
+    margin: none;
+    border-radius: 20px;
+    width: auto;
+}
+
+
 body {
     background-color: black;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-
 }
 
 footer {
-    text-align: right;
+    display: table;
+    width: 100%;
+    height: 100%;
     color: white;
     text-decoration: underline;
-    text-decoration-color:purple;
+    text-decoration-color: blueviolet;
+
+}
+
+iframe {
+    width: 95%;
+    height: -50px;
+    padding: 10px;
+    border-style: none;
+    border-radius: 30px;
 }

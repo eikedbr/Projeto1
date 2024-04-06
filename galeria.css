@@ -6,6 +6,17 @@ header {
     width: auto;
     margin: none;
     padding: 10px;
+    
+}
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: none;
+background: url(wp2035752-science-wallpapers.jpg) no-repeat fixed center;
+background-size: 100%;
 }
 
 nav {
@@ -20,7 +31,7 @@ nav a {
     color: blueviolet;
     text-decoration: none;
     font-size: larger;
-    
+
 
 }
 
@@ -47,7 +58,7 @@ nav a:hover {
 .container figure {
     position: relative;
     overflow: hidden;
-    border-radius: 5px;
+    border-radius: 10px;
     /* Adicionando borda arredondada */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
@@ -60,7 +71,7 @@ nav a:hover {
 }
 
 .imagem {
-    display: flex;
+    display: block;
     justify-content: space-between;
     width: 100%;
     height: auto;
@@ -82,9 +93,9 @@ nav a:hover {
 .container figcaption {
     position: relative;
     bottom: auto;
-    left: 0;
+    left: auto;
     width: 100%;
-    padding: 10px;
+    padding: 3px;
     background: rgba(red, green, blue, 0.5);
     text-align: center;
     transition: bottom 0.5s ease;
@@ -113,7 +124,6 @@ body {
 }
 
 figure {
- display: block;
- 
-}
+    display: block;
 
+}

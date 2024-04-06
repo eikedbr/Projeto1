@@ -7,7 +7,15 @@ header {
     margin: none;
     padding: 10px;
 }
-
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+background: url("Spiral-Nebula.jpg") no-repeat fixed center;
+background-size: 100%;
+}
 nav {
     padding: 10px;
     display: flex;

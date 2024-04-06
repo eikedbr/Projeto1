@@ -3,7 +3,9 @@ body {
     color: white;
     text-align: center;
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: none;
+background: url("spiral-nebula-3840x2160-10944.jpg") no-repeat fixed center;
+background-size: 100%;
 }
 
 footer {

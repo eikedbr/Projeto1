@@ -6,17 +6,20 @@ header {
     width: auto;
     margin: none;
     padding: 10px;
-    
+    opacity: 1;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 body {
-    background-color: black;
+    background-color: rgba(255, 255, 255, 0.5);
     color: white;
     text-align: center;
     font-family: Arial, sans-serif;
     margin: none;
 background: url(Science.jpg) no-repeat fixed center;
 background-size: 100%;
+
 }
 
 nav {
@@ -24,20 +27,21 @@ nav {
     display: flex;
     justify-content: center;
     word-spacing: 400px;
+    
 }
 
 nav a {
     background-color: transparent;
-    color: blueviolet;
+    color: white;
     text-decoration: none;
     font-size: larger;
-
+font: bold;
 
 }
 
 nav a:hover {
     background-color: transparent;
-    color: blueviolet;
+    color: white;
     text-decoration: underline;
     cursor: -moz-grabbing;
 }
@@ -68,6 +72,7 @@ nav a:hover {
     width: 100%;
     height: auto;
     transition: transform 0.3s ease;
+    opacity: 1;
 }
 
 .imagem {
@@ -127,3 +132,4 @@ figure {
     display: block;
 
 }
+

@@ -1,6 +1,6 @@
 nav {
  border-style: none;
- 
+ opacity: 1;
 }
 
 form{
@@ -12,6 +12,7 @@ form{
 
 label{
     margin: 10px 0;
+    
 }
 
 input, textarea{

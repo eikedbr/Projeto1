@@ -1,11 +1,15 @@
 body {
-    background-color: black;
+    background-color: transparent;
     color: white;
     text-align: center;
     font-family: Arial, sans-serif;
     margin: none;
 background: url("Spiral-Nebula.jpg") no-repeat fixed center;
 background-size: 100%;
+}
+h2 {
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: black;
 }
 
 footer {
@@ -29,6 +33,8 @@ header {
     width: auto;
     margin: none;
     padding: 10px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 nav {
@@ -40,7 +46,7 @@ nav {
 
 nav a {
     background-color: transparent;
-    color: blueviolet;
+    color: white;
     text-decoration: none;
     font-size: larger;
     
@@ -49,7 +55,7 @@ nav a {
 
 nav a:hover {
     background-color: transparent;
-    color: blueviolet;
+    color: white;
     text-decoration: underline;
     cursor: -moz-grabbing;
 }
@@ -60,6 +66,7 @@ section {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: move 35s linear infinite;
+    
 }
 
 @keyframes move {

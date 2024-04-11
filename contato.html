@@ -52,16 +52,20 @@
         <input type="checkbox" name="caixa_selecao" id="caixa_selecao">
 
         <label for="selecao">Rádio </label>
-<input type="radio" name="selecao" id="selecao">
+        <input type="radio" name="selecao" id="selecao">
 
-<label for="arquivo">Selecione um arquivo </label>
-<input type="file" name="arquivo" id="arquivo">
+        <label for="arquivo">Selecione um arquivo </label>
+        <input type="file" name="arquivo" id="arquivo">
 
-<label for="cor">Selecione uma Cor</label>
-<input type="color" name="cor" id="cor">
+        <label for="cor">Selecione uma Cor</label>
+        <input type="color" name="cor" id="cor">
 
-        <button type="submit">Enviar</button>
+        <button type="submit" onclick="mostraMensagem()">Enviar</button>
     </form>
+
+    <script>function mostraMensagem() {
+    alert("Formulário Enviado");
+    }</script>
 </body>
 
 </html>
